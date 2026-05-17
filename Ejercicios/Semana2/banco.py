@@ -1,0 +1,31 @@
+class Banco:
+    def __init__(self, no_clientes, no_elementos_seguridad, no_edificios, sistema_informatico, nombre_Banco, no_cajeros, fiable, capital, horario_de_atencion, color):
+        self.no_clientes = no_clientes
+        self.no_elementos_seguridad = no_elementos_seguridad
+        self.no_edificios = no_edificios
+        self.sistema_informatico = sistema_informatico
+        self.nombre_Banco = nombre_Banco
+        self.no_cajeros = no_cajeros
+        self.fiable = fiable
+        self.capital = capital
+        self.horario_de_atencion = horario_de_atencion
+        self.color = color
+
+
+    def mostrar_datos(self):
+        print(f"Numero de clientes {self.no_clientes}")
+        print(f"Numero de seguridad {self.no_elementos_seguridad}")
+        print(f"Numero de edificios {self.no_edificios}")
+        print(f"Numero de sistema {self.sistema_informatico}")
+        print(f"Nombre de Banco {self.nombre_Banco}")
+        print(f"No. cajeros {self.no_cajeros}")
+        print(f"Es fiable {self.fiable}")
+        print(f"Capital total {self.capital}")
+        print(f"Horario de atencion {self.horario_de_atencion}")
+        print(f"Color {self.color}")
+
+
+acme = Banco(10000, None, None, "Acme0.1", "Acme", 10000, True, 1000000, "4:00am - 14:00pm", "Verde Pasto")
+
+
+acme.mostrar_datos()
