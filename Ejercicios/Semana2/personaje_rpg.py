@@ -11,7 +11,7 @@ class PersonajeRPG:
         self.esta_vivo = esta_vivo
         self.arma_equipada = arma
 
-    def mostrar_stats(self):
+
         print(f"Nombre del héroe: {self.nombre}")
         print(f"Clase: {self.clase}")
         print(f"Nivel de personaje: {self.nivel}")
@@ -43,12 +43,7 @@ class PersonajeRPG:
 
 
 Wemby = PersonajeRPG("Wemby_Alien", "Guerrero Galáctico", 99, 1000, 850, 500, 95, 110, True, "Balón de Fuego")
-Wemby.mostrar_stats()
 
-print("-" * 30) # Línea separadora opcional para que no se amontone en la terminal
-
-# Instancia 2 (Wemby)
-Wemby = PersonajeRPG("Wemby", "Alien", 1, 100, 100, 50, 10, 20, True, "Espada")
 Wemby.atacar()
 Wemby.curar()
 Wemby.subir_nivel()

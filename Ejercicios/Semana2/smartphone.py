@@ -11,7 +11,7 @@ class Smartphone:
         self.resolucion_pantalla = resolucion_pantalla
         self.num_camaras = num_camaras
 
-    def mostrar_datos(self):
+
         print(f"Marca del smartphone: {self.marca}")
         print(f"Modelo del dispositivo: {self.modelo}")
         print(f"Color del equipo: {self.color}")
@@ -23,6 +23,4 @@ class Smartphone:
         print(f"Resolución de pantalla: {self.resolucion_pantalla}")
         print(f"Número de cámaras: {self.num_camaras}")
 
-# Ejemplo de instancia respetando tu formato
 iphone_13 = Smartphone("Apple", "iPhone 13", "Azul marino", 128, 4, "iOS", 84, 4, "2556 x 1179", 3)
-iphone_13.mostrar_datos()
