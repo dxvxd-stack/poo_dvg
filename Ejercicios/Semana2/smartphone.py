@@ -23,4 +23,28 @@ class Smartphone:
         print(f"Resolución de pantalla: {self.resolucion_pantalla}")
         print(f"Número de cámaras: {self.num_camaras}")
 
-iphone_13 = Smartphone("Apple", "iPhone 13", "Azul marino", 128, 4, "iOS", 84, 4, "2556 x 1179", 3)
+        print()
+
+    def encender(self):
+        print(f"Usando el mas grande de sus {self.no_botones} botones el iphone enciende")
+
+    def tomar_foto(self):
+        print(f"El modelo {self.modelo} de la marca {self.marca} toma muy buenas fotos")
+
+    def hacer_llamadas(self):
+        print(f"El smartphone {self.modelo} puede hacer llamadas de una manera mas segura gracias a {self.sistema_operativo}")
+
+    def instalar_apps(self):
+        print(f"En el {self.modelo} se instalan las aps en la appstore")
+
+    def pagar(self):
+        print(f"Con el {self.modelo} puedes pagar usando apple pay ")
+
+
+iphone_13 = Smartphone("Apple", "iPhone 13", "Azul marino", 128, 4, "iOS 26", 84, 4, "2556 x 1179", 3)
+
+iphone_13.encender()
+iphone_13.tomar_foto()
+iphone_13.hacer_llamadas()
+iphone_13.instalar_apps()
+iphone_13.pagar()
