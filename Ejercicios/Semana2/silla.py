@@ -1,5 +1,5 @@
 class Silla:
-    def __init__(self, material, tipo, altura, resistencia_peso, comodidad, num_patas, color, marca, esta_entera):
+    def __init__(self, material, tipo, altura, resistencia_peso, comodidad, num_patas, color, marca, esta_entera,giratoria):
         self.material = material
         self.tipo = tipo
         self.altura = altura
@@ -9,6 +9,7 @@ class Silla:
         self.color = color
         self.marca = marca
         self.esta_entera = esta_entera
+        self.giratoria = giratoria
 
         print(f"De que material es? {self.material}")
         print(f"Que tipo de silla es? {self.tipo}")
@@ -19,6 +20,10 @@ class Silla:
         print(f"De que color es? {self.color}")
         print(f"De que marca es? {self.marca}")
         print(f"Esta en buenas condiciones? {self.esta_entera}")
+        print(f"La silla es giratoria? {self.giratoria}")
+
+
+        print()
 
 
     def soportar_peso(self):
@@ -38,7 +43,7 @@ class Silla:
         print("Una pata se quebró. La silla ya no está en buenas condiciones")
 
 
-silla = Silla("Plastico", "Ergonómica", "90 cm", "120 kg", True, 4, "Negro mate", "Muebleria modelo", True)
+silla = Silla("Plastico", "Ergonómica", "90 cm", "120 kg", True, 4, "Negro mate", "Muebleria modelo", True,True)
 
 silla.soportar_peso()
 silla.ajustar_altura()
