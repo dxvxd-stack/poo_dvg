@@ -1,5 +1,5 @@
 class Mesa:
-    def __init__(self, material, forma, dimensiones, tipo_patas, color, habitacion, esta_firme, mantel):
+    def __init__(self, material, forma, dimensiones, tipo_patas, color, habitacion, esta_firme, mantel,capacidad_personas,costo):
         self.material = material
         self.forma = forma
         self.dimensiones = dimensiones
@@ -8,6 +8,8 @@ class Mesa:
         self.habitacion = habitacion
         self.esta_firme = esta_firme
         self.mantel = mantel
+        self.capacidad_personas = capacidad_personas
+        self.costo = costo
 
         print(f"De que material es la mesa? {self.material}")
         print(f"Que forma tiene la mesa? {self.forma}")
@@ -17,6 +19,10 @@ class Mesa:
         print(f"En que abitacion esta? {self.habitacion}")
         print(f"Esta firme? {self.esta_firme}")
         print(f"Tiene mantel? {self.mantel}")
+        print(f"La mesa tiene capacidad para {self.capacidad_personas} personas")
+        print(f"La mesa costo mas o menos {self.costo}")
+
+        print()
 
     def sostener_objetos(self):
         print(f"La mesa de {self.material} está sosteniendo platos y vasos")
@@ -33,7 +39,7 @@ class Mesa:
     def tambalear(self):
         print(f"La mesa está firme? {self.esta_firme}")
 
-mesa = Mesa("Madera", "Rectangular", "1.80m x 0.90m","De madera en cruz", "cafe", "Comedor", True, "Mantel de tela")
+mesa = Mesa("Madera", "Rectangular", "1.80m x 0.90m","De madera en cruz", "cafe", "Comedor", True, "Mantel de tela",6,7000)
 
 
 mesa.sostener_objetos()
