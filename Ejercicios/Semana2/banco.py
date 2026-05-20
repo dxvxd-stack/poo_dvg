@@ -12,7 +12,7 @@ class Banco:
         self.color = color
 
 
-    def mostrar_datos(self):
+   
         print(f"Numero de clientes {self.no_clientes}")
         print(f"Numero de seguridad {self.no_elementos_seguridad}")
         print(f"Numero de edificios {self.no_edificios}")
@@ -25,7 +25,28 @@ class Banco:
         print(f"Color {self.color}")
 
 
+        print()
+
+    def retirar(self):
+        print(f"Se puede retirar en uno de sus {self.no_cajeros} cajeros")
+
+    def consultar(self):
+        print(f"Puedes consultar tu saldo en la app del banco {self.nombre_Banco}")
+
+    def prestar(self):
+        print(f"El banco {self.nombre_Banco} te puede prestar cierta cantidad")
+
+    def transferir(self):
+        print(f"Puedes realizar transferencias")
+
+    def ahorrar(self):
+        print(f"En la aplicacion del banco {self.nombre_Banco} puedes ahorrar en su apartado")
+        
+
 acme = Banco(10000, None, None, "Acme0.1", "Acme", 10000, True, 1000000, "4:00am - 14:00pm", "Verde Pasto")
 
-
-acme.mostrar_datos()
+acme.retirar()
+acme.consultar()
+acme.prestar()
+acme.transferir()
+acme.ahorrar()

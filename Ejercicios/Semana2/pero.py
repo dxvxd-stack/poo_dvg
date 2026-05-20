@@ -22,6 +22,8 @@ class PerroHusky:
         print(f"Sigue vivo? {self.esta_vivo}")
         print(f"Tiene correa? {self.correa}")
 
+        
+
     def ladrar(self):
         print(f"{self.nombre} está ladrando")
 

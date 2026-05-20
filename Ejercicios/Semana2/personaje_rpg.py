@@ -23,6 +23,8 @@ class PersonajeRPG:
         print(f"¿Sigue vivo?: {self.esta_vivo}")
         print(f"Arma en uso: {self.arma_equipada}")
 
+        print
+
     def atacar(self):
         print(f"{self.nombre} está atacando")
 
