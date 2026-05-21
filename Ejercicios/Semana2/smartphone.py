@@ -26,19 +26,19 @@ class Smartphone:
         print()
 
     def encender(self):
-        print(f"Usando el mas grande de sus {self.no_botones} botones el iphone enciende")
+        print(f"{self.modelo} se a encendido")
 
     def tomar_foto(self):
-        print(f"El modelo {self.modelo} de la marca {self.marca} toma muy buenas fotos")
+        print(f"{self.modelo} a tomado una foto")
 
     def hacer_llamadas(self):
-        print(f"El smartphone {self.modelo} puede hacer llamadas de una manera mas segura gracias a {self.sistema_operativo}")
+        print(f"{self.modelo} a realizado una llamada")
 
     def instalar_apps(self):
-        print(f"En el {self.modelo} se instalan las aps en la appstore")
+        print(f"En {self.modelo} se a instalado una app")
 
     def pagar(self):
-        print(f"Con el {self.modelo} puedes pagar usando apple pay ")
+        print(f"{self.modelo} a pagado usando apple pay ")
 
 
 iphone_13 = Smartphone("Apple", "iPhone 13", "Azul marino", 128, 4, "iOS 26", 84, 4, "2556 x 1179", 3)
