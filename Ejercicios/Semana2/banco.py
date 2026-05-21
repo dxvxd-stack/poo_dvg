@@ -28,19 +28,19 @@ class Banco:
         print()
 
     def retirar(self):
-        print(f"Se puede retirar en uno de sus {self.no_cajeros} cajeros")
+        print(f"Se a retirado en un cajero de {self.nombre_Banco}")
 
     def consultar(self):
-        print(f"Puedes consultar tu saldo en la app del banco {self.nombre_Banco}")
+        print(f"Se a consultado el saldo en la app del banco {self.nombre_Banco}")
 
     def prestar(self):
-        print(f"El banco {self.nombre_Banco} te puede prestar cierta cantidad")
+        print(f"El banco {self.nombre_Banco} a prestado")
 
     def transferir(self):
-        print(f"Puedes realizar transferencias")
+        print(f"Se a transferido")
 
     def ahorrar(self):
-        print(f"En la aplicacion del banco {self.nombre_Banco} puedes ahorrar en su apartado")
+        print(f"En la aplicacion del banco {self.nombre_Banco} se a ahorrado")
         
 
 acme = Banco(10000, None, None, "Acme0.1", "Acme", 10000, True, 1000000, "4:00am - 14:00pm", "Verde Pasto")
