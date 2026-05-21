@@ -50,11 +50,11 @@ class Coche:
 
 
 
-coche1 = Coche("Ford", "Ranger", 1994, "Blanca", "HER-5814", 2, "Gasolina", "60 Litros", "Estandar", 0, False)
+ranger = Coche("Ford", "Ranger", 1994, "Blanca", "HER-5814", 2, "Gasolina", "60 Litros", "Estandar", 0, False)
 
 
-coche1.arrancar()
-coche1.frenar()
-coche1.detener()
-coche1.abrir_puertas()
-coche1.cambiar_marcha(2)
+ranger.arrancar()
+ranger.frenar()
+ranger.detener()
+ranger.abrir_puertas()
+ranger.cambiar_marcha(2)
