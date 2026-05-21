@@ -28,7 +28,7 @@ class Mesa:
         print(f"La mesa de {self.material} está sosteniendo platos y vasos")
 
     def limpiar(self):
-        print(f"Estan limpiando la mesa {self.forma} ")
+        print(f"La mesa esta limpia {self.forma} ")
 
     def cambiar_mantel(self):
         print(f"Cambiaron el mantel por un {self.mantel}")
