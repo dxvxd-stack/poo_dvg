@@ -31,21 +31,21 @@ class Coche:
 
     def arrancar(self):
         self.en_movimiento = True
-        print(f"{self.marca} {self.modelo} ha arrancado.")
+        print(f"{self.marca} {self.modelo} ha arrancado")
 
     def detener(self):
         self.en_movimiento = False
         self.velocidad_actual = 0
-        print(f"{self.marca} {self.modelo} se ha detenido.")
+        print(f"{self.marca} {self.modelo} se ha detenido")
 
     def frenar(self):
-        print(f"{self.marca} {self.modelo} está frenando. Velocidad actual: {self.velocidad_actual} km/h.")
+        print(f"{self.marca} {self.modelo} está frenando velocidad actual {self.velocidad_actual} km/h.")
     
     def abrir_puertas(self):
-        print(f"{self.marca} {self.modelo} está abriendo las puertas.")
+        print(f"{self.marca} {self.modelo} está abriendo las puertas")
 
     def cambiar_marcha(self, marcha):
-        print(f"{self.marca} {self.modelo} está cambiando a la marcha {marcha}.")
+        print(f"{self.marca} {self.modelo} está cambiando a la marcha {marcha}")
 
 
 
