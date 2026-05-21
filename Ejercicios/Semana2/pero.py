@@ -1,4 +1,4 @@
-class PerroHusky:
+class Perro:
     def __init__(self, nombre, raza, edad, peso, energia, temperamento, color_ojos, color_pelo, esta_vivo, correa):
         self.nombre = nombre
         self.raza = raza
@@ -40,7 +40,7 @@ class PerroHusky:
         print(f"{self.nombre} se quedó dormido")
 
 
-husky = PerroHusky("Dante", "Husky Siberiano", 3, "25 kg", "Alta", "Juguetón", "Azul", "Gris y Blanco", True, "cadena larga")
+husky = Perro("Dante", "Husky Siberiano", 3, "25 kg", "Alta", "Juguetón", "Azul", "Gris y Blanco", True, "cadena larga")
 
 husky.ladrar()
 husky.comer()
