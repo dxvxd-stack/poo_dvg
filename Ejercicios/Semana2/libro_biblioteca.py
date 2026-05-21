@@ -43,11 +43,11 @@ class Libro:
     def devolver(self):
         print(f"Se a devuelto el libro {self.nombre}")
 
-habitos_a = Libro("Hábitos Atómicos","James Clear", "978-6073800419", 328, "Paidós", "Desarrollo Personal",2018, "Pasillo D - Estante 1", True, 5)
+habitos = Libro("Hábitos Atómicos","James Clear", "978-6073800419", 328, "Paidós", "Desarrollo Personal",2018, "Pasillo D - Estante 1", True, 5)
 
 
-habitos_a.abrir()
-habitos_a.buscar_pc()
-habitos_a.prestar()
-habitos_a.renovar()
-habitos_a.devolver()
+habitos.abrir()
+habitos.buscar_pc()
+habitos.prestar()
+habitos.renovar()
+habitos.devolver()
