@@ -32,7 +32,7 @@ class Libro:
         print(f"El libro {self.nombre} a sido abierto")
 
     def buscar_pc(self):
-        print(f"Buscando palabras en el libro {self.nombre}")
+        print(f"Buscando palabras en el libro {self.nombre}")P
 
     def prestar(self):
         print(f"El libro {self.nombre} a sido prestado")

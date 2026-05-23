@@ -40,7 +40,7 @@ class Banco:
         print(f"Se a transferido")
 
     def ahorrar(self):
-        print(f"En la aplicacion del banco {self.nombre_Banco} se a ahorrado")
+        print(f"En la aplicacion del banco {self.nombre_Banco} se a ahorrado ")
         
 
 acme = Banco(10000, None, None, "Acme0.1", "Acme", 10000, True, 1000000, "4:00am - 14:00pm", "Verde Pasto")

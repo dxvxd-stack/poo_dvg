@@ -16,6 +16,7 @@ class HolaMundo:
             numero_dos:int - Segundo numero para la suma 
         
         Returns:
+        
             resultado:int - Variable con el resultado de la suma
         
         """
